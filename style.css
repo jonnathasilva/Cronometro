@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contener{
+    max-width: 233px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: gold;
+    padding: 20px;
+}
+
+button{
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+.iniciar{
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    opacity: .6;
+}
+
+.iniciar:hover{
+    opacity: 1;
+}
+
+.pausar{
+    background-color:hotpink ;
+    border: none;
+    border-radius: 10px;
+    opacity: .6;
+}
+
+.pausar:hover{
+    opacity: 1;
+}
+
+.parar{
+    background-color: brown;
+    border: none;
+    border-radius: 10px;
+    opacity: .6;
+}
+
+.parar:hover{
+    opacity: 1;
+}
+
+h1{
+    text-align: center;
+}
