@@ -1,55 +1,66 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.contener{
-    max-width: 233px;
-    margin: auto;
-    margin-top: 30px;
-    background-color: gold;
-    padding: 20px;
+body {
+  background: linear-gradient(45deg, #8a2be2, #9400d3);
+  height: 94vh;
 }
 
-button{
-    padding: 5px 10px;
-    display: inline-block;
+.contener {
+  max-width: 400px;
+  margin: auto;
+  margin-top: 30px;
+  padding: 20px;
 }
 
-.iniciar{
-    background-color: green;
-    border: none;
-    border-radius: 10px;
-    opacity: .6;
+button {
+  padding: 5px 10px;
+  display: inline-block;
 }
 
-.iniciar:hover{
-    opacity: 1;
+.iniciar {
+  background-color: green;
+  border: none;
+  border-radius: 10px;
+  opacity: 0.6;
 }
 
-.pausar{
-    background-color:hotpink ;
-    border: none;
-    border-radius: 10px;
-    opacity: .6;
+.iniciar:hover {
+  opacity: 1;
 }
 
-.pausar:hover{
-    opacity: 1;
+.pausar {
+  background-color: hotpink;
+  border: none;
+  border-radius: 10px;
+  opacity: 0.6;
 }
 
-.parar{
-    background-color: brown;
-    border: none;
-    border-radius: 10px;
-    opacity: .6;
+.pausar:hover {
+  opacity: 1;
 }
 
-.parar:hover{
-    opacity: 1;
+.parar {
+  background-color: brown;
+  border: none;
+  border-radius: 10px;
+  opacity: 0.6;
+  display: none;
 }
 
-h1{
-    text-align: center;
+.parar:hover {
+  opacity: 1;
+}
+
+h1 {
+  text-align: center;
+  font-size: xxx-large;
+  color: #fff;
+}
+
+.box {
+  text-align: center;
 }
