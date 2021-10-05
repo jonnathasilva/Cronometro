@@ -1,24 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Cronometro</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <div class="contener">
-        <button onclick="start()" class="iniciar">Iniciar</button>
-        <button onclick="pause()" class="pausar">Pausar</button>
-        <button onclick="stop()" class="parar">Parar</button>
-        <h1 id="cron">00:00:00</h1>
+      <h1 id="cron">00:00:00</h1>
+      <div class="box">
+        <button id="iniciar" class="iniciar">Iniciar</button>
+        <button id="pausar" class="pausar">Pausar</button>
+        <button id="parar" class="parar">Parar</button>
+      </div>
     </div>
 
     <script src="./script.js"></script>
-</body>
-
+  </body>
 </html>
